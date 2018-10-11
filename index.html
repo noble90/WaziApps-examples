@@ -22,8 +22,9 @@
     </div>
     <div style="text-align: center; margin: 5px; background-color: azure;">
         <h3>My house</h3>
-        <a href="http://192.168.43.242/switch/off/"><button>Turn off LIGHT</button> </a>
-        <a href="http://192.168.43.242/switch/on/"><button>Turn on LIGHT</button> </a><br>
+        <p id="demo"></p>
+        <a href="http://192.168.43.242/switch/off/"><button onclick="document.getElementById('demo').innerHTML = 'Lights on'">Turn off LIGHT</button> </a>
+        <a href="http://192.168.43.242/switch/on/"><button onclick="document.getElementById('demo').innerHTML = 'Lights Off'">Turn on LIGHT</button> </a><br>
     </div>
     <div style="text-align: center;margin: 5px; background-color: azure;">
         <H3>house Location</H3>
